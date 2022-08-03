@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DemoJDBC/src/main/webapp/demojdbcjsp.jsp&apos; to &apos;demojdbc.jsp&apos;" description="Rename resource &apos;demojdbcjsp.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/demojdbcjsp.jsp" name="demojdbc.jsp" stamp="1652184574064" updateReferences="true"/>
+</session>

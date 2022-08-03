@@ -1,0 +1,22 @@
+INDEX VERSION 1.4+D:\BootCamp Java\Java_Buoi1\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1732046800.index
+993501762.index
+2589512992.index
+2058304258.index
+3064795957.index
+3241843671.index
+1441669332.index
+3028807001.index
+2896565559.index
+3915623478.index
+276211533.index
+3832032718.index
+3255109204.index
+3202223597.index
+3977915641.index
+3960021205.index
+127817065.index
+2293714717.index
+598891047.index
+3745492243.index
+1277840061.index

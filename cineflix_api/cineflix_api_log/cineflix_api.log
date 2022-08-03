@@ -1,0 +1,136 @@
+2022-07-15 16:56:50.187  INFO 2156 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : Starting CineflixApiApplication using Java 17.0.2 on NguyetVo with PID 2156 (D:\BootCamp Java\Java_Buoi1\cineflix_api\target\classes started by Dell in D:\BootCamp Java\Java_Buoi1\cineflix_api)
+2022-07-15 16:56:50.197  INFO 2156 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-15 16:56:50.313  INFO 2156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 16:56:50.314  INFO 2156 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 16:56:51.285  INFO 2156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-15 16:56:51.453  INFO 2156 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 156 ms. Found 5 JPA repository interfaces.
+2022-07-15 16:56:53.796  INFO 2156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 16:56:53.820  INFO 2156 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 16:56:53.822  INFO 2156 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-15 16:56:54.031  INFO 2156 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 16:56:54.032  INFO 2156 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3718 ms
+2022-07-15 16:56:54.137  WARN 2156 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-15 16:56:54.334  INFO 2156 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-15 16:56:54.413  INFO 2156 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-15 16:56:54.774  INFO 2156 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-15 16:56:54.902  INFO 2156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-15 16:56:55.778  INFO 2156 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-15 16:56:55.809  INFO 2156 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-15 16:56:56.326  WARN 2156 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.cybersoft.cineflix_api.entity.RoleUserId
+2022-07-15 16:56:56.327  WARN 2156 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.cybersoft.cineflix_api.entity.RoleUserId
+2022-07-15 16:56:57.196  INFO 2156 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-15 16:56:57.222  INFO 2156 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 16:56:58.725  INFO 2156 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@525c440f, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cc8bce2, org.springframework.security.web.header.HeaderWriterFilter@7450f2c7, org.springframework.security.web.authentication.logout.LogoutFilter@3c4c86c4, com.cybersoft.cineflix_api.helper.JwtAuthFilter@6c052f73, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4889f5f1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2208d21d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63b0a8e1, org.springframework.security.web.session.SessionManagementFilter@6d3fb9aa, org.springframework.security.web.access.ExceptionTranslationFilter@5611a5fb, org.springframework.security.web.access.intercept.AuthorizationFilter@7d7cf322]
+2022-07-15 16:56:59.489  INFO 2156 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 16:56:59.630  INFO 2156 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 16:56:59.659  INFO 2156 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : Started CineflixApiApplication in 10.603 seconds (JVM running for 11.773)
+2022-07-15 17:17:14.383  INFO 3092 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : Starting CineflixApiApplication using Java 17.0.2 on NguyetVo with PID 3092 (D:\BootCamp Java\Java_Buoi1\cineflix_api\target\classes started by Dell in D:\BootCamp Java\Java_Buoi1\cineflix_api)
+2022-07-15 17:17:14.384  INFO 3092 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-15 17:17:14.456  INFO 3092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 17:17:14.457  INFO 3092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 17:17:16.209  INFO 3092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-15 17:17:16.327  INFO 3092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 5 JPA repository interfaces.
+2022-07-15 17:17:17.355  INFO 3092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 17:17:17.385  INFO 3092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 17:17:17.386  INFO 3092 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-15 17:17:17.543  INFO 3092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 17:17:17.544  INFO 3092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3087 ms
+2022-07-15 17:17:17.615  WARN 3092 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-15 17:17:17.771  INFO 3092 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-15 17:17:17.840  INFO 3092 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-15 17:17:18.048  INFO 3092 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-15 17:17:18.159  INFO 3092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-15 17:17:18.632  INFO 3092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-15 17:17:18.666  INFO 3092 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-15 17:17:19.169  WARN 3092 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.cybersoft.cineflix_api.entity.RoleUserId
+2022-07-15 17:17:19.169  WARN 3092 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.cybersoft.cineflix_api.entity.RoleUserId
+2022-07-15 17:17:19.767  INFO 3092 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-15 17:17:19.775  INFO 3092 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 17:17:20.624  INFO 3092 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d38030e, org.springframework.security.web.context.SecurityContextPersistenceFilter@76ac071e, org.springframework.security.web.header.HeaderWriterFilter@76f9c42e, org.springframework.security.web.authentication.logout.LogoutFilter@1be26143, com.cybersoft.cineflix_api.helper.JwtAuthFilter@44061c02, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d6bfe28, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4891f03c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16bb0ade, org.springframework.security.web.session.SessionManagementFilter@20c212a, org.springframework.security.web.access.ExceptionTranslationFilter@551f81c2, org.springframework.security.web.access.intercept.AuthorizationFilter@7df537cc]
+2022-07-15 17:17:21.221  WARN 3092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-07-15 17:17:21.271  WARN 3092 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-07-15 17:17:21.274  INFO 3092 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 17:17:21.278  INFO 3092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-15 17:17:21.285  INFO 3092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-15 17:17:21.289  INFO 3092 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-15 17:17:21.302  INFO 3092 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-15 17:17:21.326 ERROR 3092 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-07-15 17:17:24.442  INFO 2156 --- [RMI TCP Connection(24)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-15 17:17:24.511  INFO 2156 --- [RMI TCP Connection(24)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 17:17:24.520  INFO 2156 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-15 17:17:24.540  INFO 2156 --- [RMI TCP Connection(24)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-15 17:17:34.536  INFO 6124 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : Starting CineflixApiApplication using Java 17.0.2 on NguyetVo with PID 6124 (D:\BootCamp Java\Java_Buoi1\cineflix_api\target\classes started by Dell in D:\BootCamp Java\Java_Buoi1\cineflix_api)
+2022-07-15 17:17:34.538  INFO 6124 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-15 17:17:34.639  INFO 6124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 17:17:34.640  INFO 6124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 17:17:35.671  INFO 6124 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-15 17:17:35.797  INFO 6124 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 110 ms. Found 5 JPA repository interfaces.
+2022-07-15 17:17:36.947  INFO 6124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 17:17:36.955  INFO 6124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 17:17:36.955  INFO 6124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-15 17:17:37.029  INFO 6124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 17:17:37.029  INFO 6124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2388 ms
+2022-07-15 17:17:37.220  WARN 6124 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-15 17:17:37.454  INFO 6124 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-15 17:17:37.507  INFO 6124 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-15 17:17:37.653  INFO 6124 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-15 17:17:37.778  INFO 6124 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-15 17:17:38.218  INFO 6124 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-15 17:17:38.234  INFO 6124 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-15 17:17:38.515  WARN 6124 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.cybersoft.cineflix_api.entity.RoleUserId
+2022-07-15 17:17:38.515  WARN 6124 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.cybersoft.cineflix_api.entity.RoleUserId
+2022-07-15 17:17:38.993  INFO 6124 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-15 17:17:39.001  INFO 6124 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 17:17:39.952  INFO 6124 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f543544, org.springframework.security.web.context.SecurityContextPersistenceFilter@304c87f0, org.springframework.security.web.header.HeaderWriterFilter@397a77ea, org.springframework.security.web.authentication.logout.LogoutFilter@22a243f7, com.cybersoft.cineflix_api.helper.JwtAuthFilter@5be56b26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@166687ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b16b57a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40344047, org.springframework.security.web.session.SessionManagementFilter@36dd84c2, org.springframework.security.web.access.ExceptionTranslationFilter@3f8356b0, org.springframework.security.web.access.intercept.AuthorizationFilter@62f59678]
+2022-07-15 17:17:40.538  INFO 6124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 17:17:40.674  INFO 6124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 17:17:40.702  INFO 6124 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : Started CineflixApiApplication in 6.884 seconds (JVM running for 8.297)
+2022-07-15 17:20:03.783  INFO 6124 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-15 17:20:03.828  INFO 6124 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 17:20:03.834  INFO 6124 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-15 17:20:03.846  INFO 6124 --- [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-15 17:25:49.780  INFO 6088 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : Starting CineflixApiApplication using Java 17.0.2 on NguyetVo with PID 6088 (D:\BootCamp Java\Java_Buoi1\cineflix_api\target\classes started by Dell in D:\BootCamp Java\Java_Buoi1\cineflix_api)
+2022-07-15 17:25:49.782  INFO 6088 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-15 17:25:49.845  INFO 6088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 17:25:49.845  INFO 6088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 17:25:50.499  INFO 6088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-15 17:25:50.597  INFO 6088 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 5 JPA repository interfaces.
+2022-07-15 17:25:51.393  INFO 6088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 17:25:51.401  INFO 6088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 17:25:51.402  INFO 6088 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-07-15 17:25:51.543  INFO 6088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 17:25:51.543  INFO 6088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1697 ms
+2022-07-15 17:25:51.669  WARN 6088 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-15 17:25:51.837  INFO 6088 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-15 17:25:51.882  INFO 6088 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-15 17:25:52.072  INFO 6088 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-15 17:25:52.166  INFO 6088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-15 17:25:52.605  INFO 6088 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-15 17:25:52.642  INFO 6088 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-15 17:25:53.032  WARN 6088 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.cybersoft.cineflix_api.entity.RoleUserId
+2022-07-15 17:25:53.033  WARN 6088 --- [restartedMain] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.cybersoft.cineflix_api.entity.RoleUserId
+2022-07-15 17:25:53.530  INFO 6088 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-15 17:25:53.538  INFO 6088 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 17:25:54.481  INFO 6088 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35ee243f, org.springframework.security.web.context.SecurityContextPersistenceFilter@79e1cd53, org.springframework.security.web.header.HeaderWriterFilter@72e327e8, org.springframework.security.web.authentication.logout.LogoutFilter@398c0e55, com.cybersoft.cineflix_api.helper.JwtAuthFilter@5563992f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29b371ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7437cb49, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@687dd5e4, org.springframework.security.web.session.SessionManagementFilter@3f93134a, org.springframework.security.web.access.ExceptionTranslationFilter@4aac1aad, org.springframework.security.web.access.intercept.AuthorizationFilter@10fdef28]
+2022-07-15 17:25:55.079  INFO 6088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 17:25:55.201  INFO 6088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 17:25:55.218  INFO 6088 --- [restartedMain] c.c.cineflix_api.CineflixApiApplication  : Started CineflixApiApplication in 6.124 seconds (JVM running for 7.596)
+2022-07-15 17:26:27.991  INFO 6088 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-15 17:26:28.016  INFO 6088 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 17:26:28.019  INFO 6088 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-15 17:26:28.027  INFO 6088 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

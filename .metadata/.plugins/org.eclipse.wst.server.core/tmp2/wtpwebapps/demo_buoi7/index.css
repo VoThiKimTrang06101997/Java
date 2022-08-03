@@ -1,0 +1,18 @@
+@charset "UTF-8";
+h1{
+	color: white;
+	background-color: red;
+	text-align: center;
+}
+
+.coffee{
+	color: blue;
+}
+
+.btn {
+	background-color: gray;
+}
+
+#btn-primary{
+	background-color: gray;
+}

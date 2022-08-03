@@ -1,0 +1,46 @@
+package demo_bootstrap;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+@WebServlet("/login")
+public class LoginPage extends HttpServlet {
+	// GET
+	// POST: tham số nội dung được truyền ngầm
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//		PrintWriter writer = resp.getWriter();
+//		writer.append("<h1>Hello</h1>");
+//		writer.close();
+		
+		String username = req.getParameter("username");
+		String password = req.getParameter("password");
+		System.out.println("Username: " + username + "\n" + "Password: " + password);
+		
+		RequestDispatcher dispatcher = req.getRequestDispatcher("login.jsp");
+		dispatcher.forward(req, resp);
+	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String userName = req.getParameter("username");
+		String password = req.getParameter("password");
+		System.out.println("DoPost Username: " + userName + "\n" + "Password: " + password);
+		
+		RequestDispatcher dispatcher = req.getRequestDispatcher("login.jsp");
+		dispatcher.forward(req, resp);
+	}
+	
+	/* Từ trang Login truyền tham số username, password qua trang Welcome 
+	 * Bên trang Welcome sẽ kiểm tra username=cybersoft [không phân biệt hoa thường], password=123 
+	 * Xuất ra câu chào đúng username truyền vào 
+	 * Nếu sai password hoặc username thì xuất ra "Tài khoản không hợp lệ" */
+	
+	
+} 

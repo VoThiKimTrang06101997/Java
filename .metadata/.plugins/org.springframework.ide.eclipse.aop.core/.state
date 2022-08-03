@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="cineflix_api"/>
+<aop-project name="cineflix"/>
+<aop-project name="demo_restful_api"/>
+<aop-project name="demorabbitmq"/>
+<aop-project name="demo_jpa_hibernate"/>
+<aop-project name="demo_hibernate"/>
+<aop-project name="demo_spring_security"/>
+<aop-project name="demospring"/>
+<aop-project name="demodependencyioc"/>
+<aop-project name="login_jwt"/>
+</aop-reference-model>
